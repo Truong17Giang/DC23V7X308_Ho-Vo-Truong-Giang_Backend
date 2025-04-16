@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon sever.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ho Vo Truong Giang",
@@ -15,6 +16,7 @@
   "devDependencies": {
     "eslint": "^9.24.0",
     "eslint-config-prettier": "^10.1.2",
+    "nodemon": "^3.1.9",
     "prettier": "^3.5.3"
   }
 }
